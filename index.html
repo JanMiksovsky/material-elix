@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <title>Material Elix components</title>
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="static/media/mdc_web_48dp.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rubik:300,400,500"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script type="module" src="src/MaterialDrawer.js"></script>
+  </head>
+
+  <body class="mdc-typography">
+    <material-drawer id="drawer">
+      <div class="mdc-drawer__header">
+        <h3 class="mdc-drawer__title">Mail</h3>
+        <h6 class="mdc-drawer__subtitle">email@material.io</h6>
+      </div>
+    </material-drawer>
+
+    <div class="drawer-frame-root">
+      <div class="drawer-frame-app-content">
+        <header class="mdc-top-app-bar drawer-top-app-bar" style="top: 0px;">
+          <div class="mdc-top-app-bar__row">
+            <section
+              class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+            >
+              <button
+                class="mdc-icon-button material-icons mdc-top-app-bar__navigation-icon mdc-ripple-upgraded--unbounded mdc-ripple-upgraded"
+                style="
+                  --mdc-ripple-fg-size: 28px;
+                  --mdc-ripple-fg-scale: 1.71429;
+                  --mdc-ripple-left: 10px;
+                  --mdc-ripple-top: 10px;
+                "
+                onclick="drawer.open()"
+              >
+                menu</button
+              ><span class="mdc-top-app-bar__title">Modal Drawer</span>
+            </section>
+          </div>
+        </header>
+
+        <div class="drawer-main-content">
+          <div class="mdc-top-app-bar--fixed-adjust"></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

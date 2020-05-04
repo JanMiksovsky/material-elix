@@ -1,0 +1,7 @@
+{
+  "name": "material-elix",
+  "version": "1.0.0",
+  "dependencies": {
+    "elix": "12.1.4"
+  }
+}
