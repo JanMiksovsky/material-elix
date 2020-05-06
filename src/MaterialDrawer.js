@@ -10,6 +10,8 @@ import MaterialScrim from "./MaterialScrim.js";
 
 class MaterialDrawer extends Drawer {
   get [defaultState]() {
+    // Indicate that other components in the Material design system should be
+    // used for various parts of the drawer.
     return Object.assign(super[defaultState], {
       backdropPartType: MaterialScrim,
       framePartType: MaterialOverlayFrame,
@@ -19,6 +21,7 @@ class MaterialDrawer extends Drawer {
 
   [render](changed) {
     super[render](changed);
+
     // As the drawer opens (closes), transition the backdrop to fully
     // opaque (transparent).
     if (changed.openedFraction) {
