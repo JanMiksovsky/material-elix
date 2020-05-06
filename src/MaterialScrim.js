@@ -1,6 +1,6 @@
 import Backdrop from "../node_modules/elix/src/base/Backdrop.js";
 import { template } from "../node_modules/elix/src/base/internal.js";
-import html from "../node_modules/elix/src/core/html";
+import html from "../node_modules/elix/src/core/html.js";
 
 class MaterialScrim extends Backdrop {
   get [template]() {
